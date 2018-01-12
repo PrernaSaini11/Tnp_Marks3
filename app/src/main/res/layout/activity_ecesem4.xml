@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/root_view"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg"
+            android:layout_gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/maths"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="16dp"
+                    android:text="Subject Name"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14sp"
+                    android:textColor="#616161"/>
+
+                <TextView
+                    android:id="@+id/chem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:padding="16dp"
+                    android:text="AE-||"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/phy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:padding="16dp"
+                    android:textStyle="bold|italic"
+                    android:text="DCS"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>v
+                <TextView
+                    android:id="@+id/prog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:padding="16dp"
+                    android:textStyle="bold|italic"
+                    android:text="CS"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/mech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:text="OOP"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:padding="16dp"
+                    android:textColor="#000000"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:text = "DS"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:padding="16dp"
+                    android:textColor="#000000"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:text = "TLA"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:padding="16dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/comm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:text="AE-|| LAB"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:padding="16dp"
+                    android:textColor="#000000"/>
+                />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:text="DCS LAB"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:padding="16dp"
+                    android:textColor="#000000"/>
+                />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:text="CS LAB"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:padding="16dp"
+                    android:textColor="#000000"/>
+                />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:text="MP LAB"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:padding="16dp"
+                    android:textColor="#000000"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="24dp"
+                    android:text="DS LAB"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="14sp"
+                    android:padding="16dp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+               >
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:padding="16dp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="24dp"
+                    android:text="Marks"
+                    android:textColor="#616161"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:textStyle="bold|italic"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:textStyle="bold|italic"
+                    android:padding="16dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed8"
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:textStyle="bold|italic"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+                <EditText
+                    android:id="@+id/ed10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:paddingBottom="24dp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/ed11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:textStyle="bold|italic"
+                    android:padding="16dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="RESULT"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:id="@+id/button" />
+            <TextView
+                android:id="@+id/tView"
+                android:layout_width="match_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Marks with credit"
+                android:textAlignment="center"
+                android:layout_above="@+id/t1View"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-light"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/t1View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:text = "Marks without credit"
+                android:layout_above="@+id/t2View"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-light"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/t2View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:text = "Credits Gained"
+                android:layout_above="@+id/t2View"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-light"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
